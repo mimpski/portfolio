@@ -5,7 +5,7 @@ layout: default
 
 <section class="portfolio_listing">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Portfolio</h1>
 
   <div class="portfolio_list">
     {% for post in site.categories.blog limit:4 %}
@@ -13,6 +13,25 @@ layout: default
         <h2>
           <a class="portfolio_link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h2>
+      </div>
+    {% endfor %}
+    <div class="clearfix"></div>
+  </div>
+
+</section>
+
+<section class="job_listing">
+
+  <h1 class="page-heading">Work History</h1>
+
+  <div class="job_list">
+    {% for job in site.data.history %}
+      <div class="job_item">
+        <h2>
+          {{ job.name }}
+        </h2>
+        <p>{{ job.timeline }}</p>
+        <p>{{ job.job-title }}</p>
       </div>
     {% endfor %}
     <div class="clearfix"></div>

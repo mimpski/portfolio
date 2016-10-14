@@ -1,0 +1,16 @@
+
+.post_listing{
+
+}
+.post_list{
+
+}
+.post_list-item{
+  width: 100%;
+  padding: 20px;
+
+  @media screen and (min-width: $tablet){
+    width: 50%;
+    float: left;
+  }
+}

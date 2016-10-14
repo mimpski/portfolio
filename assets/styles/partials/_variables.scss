@@ -1,6 +1,6 @@
 /** Fonts **/
 
-$font-family--primary: 'Droid Serif', serif;
+$font-family--primary: 'Lato', sans-serif;
 $font-family--secondary: 'Lato', sans-serif;
 
 $font-weight--normal: 400;
@@ -14,3 +14,11 @@ $color2: #CFC3BD; // brown
 $color3: #AE8AA6; // light purple
 $color4: #6B516E; // dark purple
 $color5: #C4D8DC; // blue
+
+
+/** Sizes **/
+
+$mobile: 320px;
+$tablet: 760px;
+$desktop: 960px;
+$large-desktop: 1300px;

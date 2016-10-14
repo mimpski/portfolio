@@ -13,11 +13,14 @@ body {
 body {
   color: black;
   background-color: #fff;
+  font-family: $font-family--primary;
+  font-size: 1em;
+  line-height: 1.4em;
 }
 
 #main, .wrapper{
   width: 80%;
-  max-width: 38.89rem;
+  max-width: 68.75rem;
   display: block;
   margin: 0 auto;
 }

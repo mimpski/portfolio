@@ -73,3 +73,11 @@ defaults:
       layout: post
       author:
       image:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: page
+      author:
+      image:
